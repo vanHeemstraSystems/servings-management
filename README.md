@@ -1,2 +1,2 @@
-# servings-management
-Servings Management
+servings-management
+# Servings Management
