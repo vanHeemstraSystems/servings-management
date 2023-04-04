@@ -32,6 +32,8 @@ Install the dependencies for both applications with `yarn --immutable`.
 
 ### Node Backend
 
+*NOTE*: In order to have an application id, follow the instructions of creating a GitHub Application at https://docs.github.com/en/apps/creating-github-apps/creating-github-apps/creating-a-github-app
+
 Ideally, the Node Backend should be started first. It requires three environment variables:
 
 - APPLICATION_ID: GitHub application id
