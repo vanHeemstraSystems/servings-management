@@ -1,0 +1,33 @@
+{
+  "name": "react-d3-webapp",
+  "version": "1.0.0",
+  "author": "Rolando Ramos",
+  "description": "A long time ago I started a personal project to become more familiar with Node, React, and other tools part of the modern JavaScript ecosystem.",
+  "main": "index.js",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/rolspace/react-d3-webapp.git"
+  },
+  "packageManager": "yarn@3.3.1",
+  "workspaces": [
+    "src/*"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "jest": "^25.5.4",
+    "prettier": "^2.8.4"
+  },
+  "jest": {
+    "projects": [
+      "./src/client/",
+      "./src/server"
+    ]
+  }
+}
