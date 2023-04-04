@@ -1,0 +1,3 @@
+APPLICATION_ID= -- GitHub application id --
+APPLICATION_SECRET= -- GitHub application secret --
+CLIENT_URL= -- URL for the React Frontend --
